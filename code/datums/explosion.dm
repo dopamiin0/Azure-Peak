@@ -181,9 +181,9 @@ GLOBAL_LIST_EMPTY(explosions)
 			dist_epi = get_dist(L, epicenter)
 			if(dist_epi <= heavy_impact_range)
 				continue
-			if(L.mind) //min 60, max 150
-				burn = rand(40,90)
-				brute = rand(20,60)
+			if(L.mind) //min 30, max 60.
+				burn = rand(20,40)
+				brute = rand(10,20)
 				L.adjustFireLoss(burn)
 				L.adjustBruteLoss(brute)
 	EX_PREPROCESS_CHECK_TICK

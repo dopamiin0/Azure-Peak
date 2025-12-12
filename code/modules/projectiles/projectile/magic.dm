@@ -373,8 +373,8 @@
 	light_outer_range =  2
 
 	//explosion values
-	var/exp_heavy = 0
-	var/exp_light = 2
+	var/exp_heavy = -1
+	var/exp_light = -1
 	var/exp_flash = 3
 	var/exp_fire = 2
 
